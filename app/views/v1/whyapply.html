@@ -5,40 +5,42 @@
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
 
-    <form id="form" method="post" action="whenfit">
+    <form id="form" method="post" action="condition">
 
       <div class="govuk-form-group">
         <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
           <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
             <h1 class="govuk-fieldset__heading">
-              Why do you want to apply today?
+              Why do you want to apply?
             </h1>
           </legend>
           <span id="waste-hint" class="govuk-hint">
-            What's changed to make you apply?
+            Select all options that apply to you
           </span>
           <div class="govuk-checkboxes">
             <div class="govuk-checkboxes__item">
               <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
               <label class="govuk-label govuk-checkboxes__label" for="waste-1">
-                I'm not well and need some money because I can't work
+                I need money because I'm ill and I can't work
               </label>
             </div>
             <div class="govuk-checkboxes__item">
               <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
               <label class="govuk-label govuk-checkboxes__label" for="waste-2">
-                I need some money to help with living costs
+                I need extra money for help with everyday tasks
               </label>
             </div>
             <div class="govuk-checkboxes__item">
               <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
               <label class="govuk-label govuk-checkboxes__label" for="waste-3">
-                Both of the above
+                I need extra money to help with getting around
               </label>
             </div>
           </div>
         </fieldset>
       </div>
+
+      <input type="submit" class="govuk-button" value="Continue" id="submit"><!-- condition -->
 
   <div><!-- govuk-grid-column-two-thirds -->
 <div><!-- govuk-grid-row -->
