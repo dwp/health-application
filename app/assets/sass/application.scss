@@ -15,6 +15,14 @@ $govuk-global-styles: true;
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
 
+.app-button--blue {
+	background-color: govuk-colour("blue");
 
+&:hover {
+	background-color: $govuk-link-hover-colour;
+	color: $govuk-text-colour;
+
+	}
+}
 
 
